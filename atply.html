@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ATPLY | Home</title>
+ <link rel="icon" type="image/x-icon" href="Icon1.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: black;
+ color: white;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #000000;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+  color: orange;
+}
+ .header p {
+   color: red;
+ }
+
+.navbar {
+  overflow: hidden;
+  background-color: #434343;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #FF4D00;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #FF0000;
+  color: white;
+}
+
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #444;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #323232;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd
+}
+  .footer h2{
+color: black;
+  }
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+ <h1>ATPLY</h1>
+  <p>the voice that <b>hears</b> you</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="atply.html" class="active">ATPLY</a>
+</div>
+  <div class="main">
+    <iframe>
+  </div>
+<div class="footer">
+ <h2>© 2502 ATPLY</h2>
+</div>
+
+</body>
+</html>
